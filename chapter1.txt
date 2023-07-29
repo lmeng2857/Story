@@ -1,0 +1,15 @@
+// to open a file with VScode
+open -a /Applications/Visual\ Studio\ Code.app chapter1.txt
+
+//initialize a git repository in a folder
+git initialize
+
+//to show all files including hidden ones
+ls -a ===> 
+.               ..              .git            chapter1.txt
+(.git will track changes, perform version control )
+
+//to see what's currtently inside the staging area
+git status
+//untracked files will show in red-- they are in your working directory,
+//but it's not yet in your staging area.
