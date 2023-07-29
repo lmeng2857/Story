@@ -10,6 +10,31 @@ ls -a ===>
 (.git will track changes, perform version control )
 
 //to see what's currtently inside the staging area
+/// untracked files will show in red-- they are in your working directory,
+/// but it's not yet in your staging area.
 git status
-//untracked files will show in red-- they are in your working directory,
-//but it's not yet in your staging area.
+
+// to add them to the staging area and to start tracking changes in it.
+// and make them ready to be committed
+/// add and track single file
+git add filename
+or
+/// add and track all files in working directory
+git add .
+
+// to commit with some commit message, "-m" is the commit flag
+/// commit message is written in present tense.
+git commit -m "Initial commit, and complete chapter1"
+
+// to see what changes have been made 
+git log
+
+//to reverse 
+/// 1. to check the status
+git status
+/// 2. to check the differences between the current version and the last save version in the repository
+git diff filename
+/// to roll back previous version
+git checkout filename
+
+// to exit from an ... zone , use "q"
