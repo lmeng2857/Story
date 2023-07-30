@@ -9,3 +9,8 @@ git remote add origin https://github.com/lmeng2857/Story.git
 /// push local to remote
 git push -u origin main
 git push -u <remote name> <branch name>
+
+
+-----------
+
+i add something new
